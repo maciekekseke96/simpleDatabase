@@ -2,4 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.app .database-search {
+  width: 40%;
+  min-height: 40%;
+  border: 1px solid black;
+  padding: 50px;
+  background-color: antiquewhite;
+}
+
+.database-search input,
+.database-search label {
+  display: block;
+  width: 70%;
+}
+
+.app .database-add {
+  width: 40%;
+  height: 60%;
+  border: 1px solid black;
+  padding: 50px;
+  background-color: antiquewhite;
+}
+
+.database-add input,
+.database-add label,
+.database-add button {
+  display: block;
+  margin: 10px;
+}
+
+.search-results{
+    width: 70%;
+    background-color: rgb(50, 205, 81);
+    border-bottom-right-radius: 70%;
+    padding:6px;
 }
